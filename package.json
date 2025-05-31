@@ -1,0 +1,13 @@
+{
+  "name": "eagle-inpaint-plugin",
+  "version": "0.1.0",
+  "description": "Eagle.app plugin for SDXL inpainting via online API",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "electron": "^29.0.0"
+  }
+}

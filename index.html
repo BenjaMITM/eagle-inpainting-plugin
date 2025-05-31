@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eagle SDXL Inpainting Plugin</title>
+    <style>
+      body { font-family: sans-serif; margin: 20px; }
+      #image-canvas { border: 1px solid #ccc; }
+      .prompt-input { width: 100%; margin-top: 10px; }
+    </style>
+  </head>
+  <body>
+    <h2>SDXL Inpainting for Eagle</h2>
+    <button id="fetch-image">Fetch Selected Image</button>
+    <div id="image-container"></div>
+    <canvas id="image-canvas" width="512" height="512"></canvas>
+    <input class="prompt-input" id="prompt" placeholder="Describe what you want inpainted..." />
+    <button id="run-inpaint">Run Inpainting</button>
+    <script src="renderer.js"></script>
+  </body>
+</html>
